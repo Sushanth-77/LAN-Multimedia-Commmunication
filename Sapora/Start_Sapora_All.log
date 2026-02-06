@@ -1,0 +1,119 @@
+[06-11-2025 14:51:05.85] ===== Launcher started (no auto-run) ===== 
+[06-11-2025 14:51:05.86] Created dist folder. 
+[06-11-2025 14:51:05.88] EXEs not found. Attempting auto-build... 
+----- BEGIN BUILD OUTPUT ----- 
+Checking for python...
+Checking for pip...
+Creating virtual environment in .venv...
+Upgrading pip in venv...
+Requirement already satisfied: pip in c:\users\sushanth\onedrive\desktop\cn_2testing\sapora\sapora\.venv\lib\site-packages (25.0.1)
+Collecting pip
+  Downloading pip-25.3-py3-none-any.whl.metadata (4.7 kB)
+Downloading pip-25.3-py3-none-any.whl (1.8 MB)
+   ---------------------------------------- 1.8/1.8 MB 32.5 kB/s eta 0:00:00
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 25.0.1
+    Uninstalling pip-25.0.1:
+      Successfully uninstalled pip-25.0.1
+Successfully installed pip-25.3
+Installing requirements.txt into venv...
+Collecting numpy>=1.26.0 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 5))
+  WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='files.pythonhosted.org', port=443): Read timed out. (read timeout=15)")': /packages/09/97/fd421e8bc50766665ad35536c2bb4ef916533ba1fdd053a62d96cc7c8b95/numpy-2.3.4-cp313-cp313-win_amd64.whl.metadata
+  Downloading numpy-2.3.4-cp313-cp313-win_amd64.whl.metadata (60 kB)
+Collecting PyQt6>=6.5 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 8))
+  Downloading pyqt6-6.10.0-cp39-abi3-win_amd64.whl.metadata (2.2 kB)
+Collecting opencv-python>=4.9.0.80 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 11))
+  Downloading opencv_python-4.12.0.88-cp37-abi3-win_amd64.whl.metadata (19 kB)
+Collecting pyaudio>=0.2.14 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 14))
+  Downloading PyAudio-0.2.14-cp313-cp313-win_amd64.whl.metadata (2.7 kB)
+Collecting mss>=9.0.1 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 17))
+  Downloading mss-10.1.0-py3-none-any.whl.metadata (6.7 kB)
+Collecting ffmpeg-python>=0.2.0 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 23))
+  Downloading ffmpeg_python-0.2.0-py3-none-any.whl.metadata (1.7 kB)
+ERROR: Ignored the following versions that require a different python version: 1.21.2 Requires-Python >=3.7,<3.11; 1.21.3 Requires-Python >=3.7,<3.11; 1.21.4 Requires-Python >=3.7,<3.11; 1.21.5 Requires-Python >=3.7,<3.11; 1.21.6 Requires-Python >=3.7,<3.11; 1.26.0 Requires-Python >=3.9,<3.13; 1.26.1 Requires-Python >=3.9,<3.13
+ERROR: Could not find a version that satisfies the requirement tqdm>=4.66.1 (from versions: none)
+ERROR: No matching distribution found for tqdm>=4.66.1
+ERROR: Could not find a version that satisfies the requirement numpy>=1.26.0 (from versions: none)
+ERROR: No matching distribution found for numpy>=1.26.0
+Collecting numpy>=1.26.0 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 5))
+  Downloading numpy-2.3.4-cp313-cp313-win_amd64.whl.metadata (60 kB)
+Collecting PyQt6>=6.5 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 8))
+  Downloading pyqt6-6.10.0-cp39-abi3-win_amd64.whl.metadata (2.2 kB)
+Collecting opencv-python>=4.9.0.80 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 11))
+  Downloading opencv_python-4.12.0.88-cp37-abi3-win_amd64.whl.metadata (19 kB)
+Collecting pyaudio>=0.2.14 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 14))
+  Downloading PyAudio-0.2.14-cp313-cp313-win_amd64.whl.metadata (2.7 kB)
+Collecting mss>=9.0.1 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 17))
+  Downloading mss-10.1.0-py3-none-any.whl.metadata (6.7 kB)
+Collecting ffmpeg-python>=0.2.0 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 23))
+  Downloading ffmpeg_python-0.2.0-py3-none-any.whl.metadata (1.7 kB)
+Collecting tqdm>=4.66.1 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 24))
+  Downloading tqdm-4.67.1-py3-none-any.whl.metadata (57 kB)
+Collecting pyautogui (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 25))
+  Downloading PyAutoGUI-0.9.54.tar.gz (61 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting flask>=3.0.0 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 28))
+  Downloading flask-3.1.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting flask-socketio>=5.3.5 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 29))
+  Downloading Flask_SocketIO-5.5.1-py3-none-any.whl.metadata (2.6 kB)
+Collecting flask-cors>=4.0.0 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 30))
+  Downloading flask_cors-6.0.1-py3-none-any.whl.metadata (5.3 kB)
+Collecting python-socketio>=5.10.0 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 31))
+  Downloading python_socketio-5.14.3-py3-none-any.whl.metadata (3.2 kB)
+Collecting python-engineio>=4.8.0 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 32))
+  Downloading python_engineio-4.12.3-py3-none-any.whl.metadata (2.2 kB)
+Collecting PyQt6-sip<14,>=13.8 (from PyQt6>=6.5->-r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 8))
+  Downloading pyqt6_sip-13.10.2-cp313-cp313-win_amd64.whl.metadata (515 bytes)
+INFO: pip is looking at multiple versions of pyqt6 to determine which version is compatible with other requirements. This could take a while.
+Collecting PyQt6>=6.5 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 8))
+  Downloading pyqt6-6.9.1-cp39-abi3-win_amd64.whl.metadata (2.2 kB)
+  Downloading PyQt6-6.9.0-cp39-abi3-win_amd64.whl.metadata (2.1 kB)
+  Downloading PyQt6-6.8.1-cp39-abi3-win_amd64.whl.metadata (2.1 kB)
+  Downloading PyQt6-6.8.0-cp39-abi3-win_amd64.whl.metadata (2.1 kB)
+  Downloading PyQt6-6.7.1-cp38-abi3-win_amd64.whl.metadata (2.1 kB)
+  Downloading PyQt6-6.7.0-1-cp38-abi3-win_amd64.whl.metadata (2.1 kB)
+  Downloading PyQt6-6.6.1-cp38-abi3-win_amd64.whl.metadata (2.2 kB)
+INFO: pip is still looking at multiple versions of pyqt6 to determine which version is compatible with other requirements. This could take a while.
+  Downloading PyQt6-6.6.0-cp37-abi3-win_amd64.whl.metadata (2.2 kB)
+  Downloading PyQt6-6.5.3-cp37-abi3-win_amd64.whl.metadata (2.2 kB)
+  Downloading PyQt6-6.5.2-cp37-abi3-win_amd64.whl.metadata (2.2 kB)
+  Downloading PyQt6-6.5.1-cp37-abi3-win_amd64.whl.metadata (2.2 kB)
+  Downloading PyQt6-6.5.0-1-cp37-abi3-win_amd64.whl.metadata (2.2 kB)
+INFO: This is taking longer than usual. You might need to provide the dependency resolver with stricter constraints to reduce runtime. See https://pip.pypa.io/warnings/backtracking for guidance. If you want to abort this run, press Ctrl + C.
+Collecting numpy>=1.26.0 (from -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 5))
+  Downloading numpy-2.3.3-cp313-cp313-win_amd64.whl.metadata (60 kB)
+  WARNING: Connection timed out while downloading.
+  WARNING: Attempting to resume incomplete download (0 bytes/60 kB, attempt 1)
+  Downloading numpy-2.3.3-cp313-cp313-win_amd64.whl.metadata (60 kB)
+ERROR: Cannot install -r C:\Users\SUSHANTH\OneDrive\Desktop\CN_2TESTING\Sapora\Sapora\requirements.txt (line 8) because these package versions have conflicting dependencies.
+
+The conflict is caused by:
+    pyqt6 6.10.0 depends on PyQt6-Qt6<6.11.0 and >=6.10.0
+    pyqt6 6.9.1 depends on PyQt6-Qt6<6.10.0 and >=6.9.0
+    pyqt6 6.9.0 depends on PyQt6-Qt6<6.10.0 and >=6.9.0
+    pyqt6 6.8.1 depends on PyQt6-Qt6<6.9.0 and >=6.8.0
+    pyqt6 6.8.0 depends on PyQt6-Qt6<6.9.0 and >=6.8.0
+    pyqt6 6.7.1 depends on PyQt6-Qt6<6.8.0 and >=6.7.0
+    pyqt6 6.7.0 depends on PyQt6-Qt6<6.8.0 and >=6.7.0
+    pyqt6 6.6.1 depends on PyQt6-Qt6>=6.6.0
+    pyqt6 6.6.0 depends on PyQt6-Qt6>=6.6.0
+    pyqt6 6.5.3 depends on PyQt6-Qt6>=6.5.0
+    pyqt6 6.5.2 depends on PyQt6-Qt6>=6.5.0
+    pyqt6 6.5.1 depends on PyQt6-Qt6>=6.5.0
+    pyqt6 6.5.0 depends on PyQt6-Qt6>=6.5.0
+
+Additionally, some packages in these conflicts have no matching distributions available for your environment:
+    pyqt6-qt6
+
+To fix this you could try to:
+1. loosen the range of package versions you've specified
+2. remove package versions to allow pip to attempt to solve the dependency conflict
+
+ERROR: ResolutionImpossible: for help visit https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts
+^C

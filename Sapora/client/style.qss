@@ -1,0 +1,333 @@
+/* ============================================================================
+   Sapora Video Conference - Modern Dark Theme
+   Zoom-like styling with rounded corners, hover effects, and smooth transitions
+   ============================================================================ */
+
+/* Global Application Styles */
+QMainWindow {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+QWidget {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-size: 11pt;
+}
+
+QDialog {
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+
+/* ============================================================================
+   TOP BAR
+   ============================================================================ */
+QFrame#topBar {
+    background-color: #2b2b2b;
+    border-bottom: 2px solid #3d3d3d;
+    padding: 5px;
+}
+
+QLabel#statusLabel {
+    color: #ffb74d;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 12px;
+    background-color: #3d3d3d;
+}
+
+/* ============================================================================
+   VIDEO AREA
+   ============================================================================ */
+QFrame#videoArea {
+    background-color: #121212;
+    border: none;
+}
+
+QLabel#videoLabel {
+    background-color: #1a1a1a;
+    color: #888888;
+    font-size: 14pt;
+    border-radius: 10px;
+    border: 2px solid #3d3d3d;
+}
+
+/* ============================================================================
+   CHAT PANEL
+   ============================================================================ */
+QFrame#chatPanel {
+    background-color: #252525;
+    border-left: 2px solid #3d3d3d;
+}
+
+QTextEdit#chatDisplay {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #3d3d3d;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 10pt;
+}
+
+QTextEdit#participantsList {
+    background-color: #1e1e1e;
+    color: #b0b0b0;
+    border: 1px solid #3d3d3d;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 9pt;
+}
+
+/* ============================================================================
+   CONTROL BAR
+   ============================================================================ */
+QFrame#controlBar {
+    background-color: #2b2b2b;
+    border-top: 2px solid #3d3d3d;
+}
+
+/* ============================================================================
+   SCROLLBARS
+   ============================================================================ */
+QScrollBar:vertical {
+    background-color: #1e1e1e;
+    width: 12px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #4d4d4d;
+    border-radius: 6px;
+    min-height: 20px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #5e72e4;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar:horizontal {
+    background-color: #1e1e1e;
+    height: 12px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #4d4d4d;
+    border-radius: 6px;
+    min-width: 20px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background-color: #5e72e4;
+}
+
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    width: 0px;
+}
+
+/* ============================================================================
+   BUTTONS - General Styling
+   ============================================================================ */
+QPushButton {
+    background-color: #3d3d3d;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 24px;
+    font-size: 11pt;
+    font-weight: 600;
+    min-width: 120px;
+}
+
+QPushButton:hover {
+    background-color: #505050;
+}
+
+QPushButton:pressed {
+    background-color: #2a2a2a;
+}
+
+QPushButton:checked {
+    background-color: #5e72e4;
+    color: #ffffff;
+}
+
+QPushButton:disabled {
+    background-color: #2a2a2a;
+    color: #666666;
+}
+
+/* ============================================================================
+   SPECIFIC BUTTON STYLES
+   ============================================================================ */
+
+/* Video Button */
+QPushButton#videoButton {
+    background-color: #5e72e4;
+}
+
+QPushButton#videoButton:hover {
+    background-color: #4c5ed1;
+}
+
+QPushButton#videoButton:checked {
+    background-color: #3d3d3d;
+}
+
+/* Audio Button */
+QPushButton#audioButton {
+    background-color: #4CAF50;
+}
+
+QPushButton#audioButton:hover {
+    background-color: #45a049;
+}
+
+QPushButton#audioButton:checked {
+    background-color: #f44336;
+}
+
+/* Chat Button */
+QPushButton#chatButton {
+    background-color: #8e44ad;
+}
+
+QPushButton#chatButton:hover {
+    background-color: #7d3c98;
+}
+
+/* File Button */
+QPushButton#fileButton {
+    background-color: #2196F3;
+}
+
+QPushButton#fileButton:hover {
+    background-color: #1976D2;
+}
+
+/* Screen Share Button */
+QPushButton#screenButton {
+    background-color: #ff9800;
+}
+
+QPushButton#screenButton:hover {
+    background-color: #f57c00;
+}
+
+/* Leave Button */
+QPushButton#leaveButton {
+    background-color: #f44336;
+    min-width: 100px;
+}
+
+QPushButton#leaveButton:hover {
+    background-color: #d32f2f;
+}
+
+/* ============================================================================
+   INPUT FIELDS
+   ============================================================================ */
+QLineEdit {
+    background-color: #2b2b2b;
+    color: #ffffff;
+    border: 2px solid #3d3d3d;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 10pt;
+}
+
+QLineEdit:focus {
+    border: 2px solid #5e72e4;
+    background-color: #323232;
+}
+
+QLineEdit::placeholder {
+    color: #888888;
+}
+
+/* ============================================================================
+   LABELS
+   ============================================================================ */
+QLabel {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+/* ============================================================================
+   FRAMES
+   ============================================================================ */
+QFrame {
+    border: none;
+}
+
+/* ============================================================================
+   MESSAGE BOXES & DIALOGS
+   ============================================================================ */
+QMessageBox {
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+
+QMessageBox QPushButton {
+    min-width: 80px;
+    padding: 8px 16px;
+}
+
+/* ============================================================================
+   LOGIN DIALOG SPECIFIC
+   ============================================================================ */
+QDialog QLabel {
+    color: #ffffff;
+    font-size: 11pt;
+}
+
+QDialog QPushButton {
+    background-color: #5e72e4;
+    min-width: 100px;
+}
+
+QDialog QPushButton:hover {
+    background-color: #4c5ed1;
+}
+
+/* ============================================================================
+   TOOLTIPS
+   ============================================================================ */
+QToolTip {
+    background-color: #3d3d3d;
+    color: #ffffff;
+    border: 1px solid #5e72e4;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 9pt;
+}
+
+/* ============================================================================
+   FILE DIALOGS
+   ============================================================================ */
+QFileDialog {
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+
+/* ============================================================================
+   ADDITIONAL POLISH
+   ============================================================================ */
+
+/* Small send button in chat */
+QFrame#chatPanel QPushButton {
+    min-width: 60px;
+    padding: 8px 16px;
+    background-color: #5e72e4;
+}
+
+QFrame#chatPanel QPushButton:hover {
+    background-color: #4c5ed1;
+}
+
